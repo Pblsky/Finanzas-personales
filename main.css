@@ -1,0 +1,97 @@
+h1{
+	text-shadow: 2px 2px 1px #222;
+	color: #ffffff; 
+	margin-top: 80px;
+}
+
+h2{
+	 text-shadow: 2px 2px 1px #222; 
+	 color:white; 
+	 margin-top:30px;
+}
+ul
+{
+    list-style-type: none;
+}
+float{
+	float: bottom;
+}
+
+[class*="col-"]{float: left;height: 100px;}
+.col-1{
+	width: 10%;
+}
+
+.col-2{
+	width: 20%;
+}
+
+.col-3{
+	width: 30%;
+}
+
+.col-4{
+	width: 40%;
+}
+
+.col-5{
+	width: 50%;
+}
+
+.col-6{
+	width: 60%;
+}
+
+.col-7{
+	width: 70%;
+}
+
+.col-8{
+	width: 80%;
+}
+
+.col-9{
+	width: 90%;
+}
+
+.col-10{
+	width: 100%;
+}
+
+@media only screen and (max-width: 320px)
+{
+	body{
+		font-size: 50%;
+	}
+	}
+	.xs-col-1{
+		width: 10%;
+	}
+	.xs-col-2{
+		width: 20%;
+	}
+	.xs-col-3{
+		width: 30%;
+	}
+	.xs-col-4{
+		width: 40%;
+	}
+	.xs-col-5{
+		width: 50%;
+	}
+	.xs-col-6{
+		width: 60%;
+	}
+	.xs-col-7{
+		width: 70%;
+	}
+	.xs-col-8{
+		width: 80%;
+	}
+	.xs-col-9{
+		width: 90%;
+	}
+	.xs-col-10{
+		width: 100%;
+	}
+}						
